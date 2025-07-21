@@ -8,7 +8,7 @@
 }
 
 
-.main{
+main{
     width: 1240px;
     margin: 0 auto;
     /* background-color: darkcyan; */
@@ -83,17 +83,20 @@
     align-items: center;
     justify-content: center;
 }
-.main{
-    margin-top: 100px;
-    margin-bottom: 30px;
+.contines{
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+    gap: 30px;
 }
-.main h1{
+.continer h1{
     text-align: center;
     font-size: 28px;
     font-weight: 600;
     color: rgba(58, 58, 58, 1);
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 .card-continer{
     width: 300px;
@@ -109,13 +112,50 @@
     font-size: 24px;
     color: rgba(0, 0, 0, 0.87);
 }
-.card-continer p{
-    font-size: 14px;
-    color: rgba(120, 120, 133, 1);
+.see{
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+    text-align: end;
 }
-.continer{
+.feature{
     display: flex;
-    flex-wrap: wrap;
+    /* width: 1120px;
+    height: 210px; */
+    justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.feature-one h1{
+    font-size: 38px;
+    font-weight: 700px;
+}
+.paragraph{
+    font-size: 16px;
+    font-weight: 700px;
+    color: rgba(108, 108, 108, 1);
+}
+.join-nom{
+     font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(224, 44, 109, 1);
+    padding: 10px 24px;
+    /* border-radius: 41px; */
+    border: none;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer h3{
+    font-size: 24px;
+    font-weight: 700px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 700px;
+    color: rgba(217, 219, 225, 1);
 }
