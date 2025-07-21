@@ -133,7 +133,7 @@ main{
 }
 .paragraph{
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
     color: rgba(108, 108, 108, 1);
 }
 .join-nom{
@@ -151,18 +151,21 @@ main{
 }
 .footer h3{
     font-size: 24px;
-    font-weight: 700px;
+    font-weight: 700;
     color: rgba(255, 255, 255, 1);
 }
 .footer p{
     font-size: 14px;
-    font-weight: 700px;
+    font-weight: 700;
     color: rgba(217, 219, 225, 1);
 }
 .icon{
     color: white;
     gap: 20px;
 }
+
+.
+
 
 @media screen and (max-width: 576px){
     .head, 
@@ -172,7 +175,4 @@ main{
     .feature{
         flex-direction: column;
     }
-   .feature{
-    margin-top: 50px;
-   }
 }
