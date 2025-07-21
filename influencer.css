@@ -35,6 +35,14 @@
     font-weight: 600;
     color: rgba(58, 58, 58, 1);
 }
+.banner{
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.banner img{
+        background-image: 100%;
+}
 .hero{
     display: flex;
     margin-top: 80px;
@@ -63,4 +71,12 @@
     padding: 10px 24px;
     border-radius: 41px;
     border: none;
+}
+.isponsor{
+    border-bottom: 1px solid 0 4px 4px 0 #C0CCDA;
+    margin-top: 100px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
 }
