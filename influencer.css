@@ -25,9 +25,7 @@ main{
     font-weight: 700;
     color: rgba(58, 58, 58, 1);
 }
-.link{
-    
-}
+
 .list-style{
     text-decoration: none;
     list-style: none;
@@ -35,17 +33,12 @@ main{
     font-weight: 600;
     color: rgba(58, 58, 58, 1);
 }
-.banner{
-    background-image: url(./images/Circle\ design.svg);
-    background-repeat: no-repeat;
-    background-position: right center;
-}
 .banner img{
         background-image: 100%;
 }
 .hero{
     display: flex;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     align-items: center;
     gap: 140px;
 }
@@ -58,7 +51,9 @@ main{
 }
 .camare{
     max-width: 440px;
-    height: 414px;
+    height: 500px;
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
 }
 .hero-discription{
     font-weight: 700;
@@ -164,7 +159,7 @@ main{
     gap: 20px;
 }
 
-.
+
 
 
 @media screen and (max-width: 576px){
@@ -175,4 +170,29 @@ main{
     .feature{
         flex-direction: column;
     }
+    .hero-title{
+        font-size: 20px;
+    }
+    .feature-title{
+        font-size: 25px;
+        text-align: center;
+    }
+    .hero-discription{
+        font-weight: 400px;
+    }
+    main{
+        width: 100%;
+    }
+    .isponsor{
+        margin-top: 30px;
+    }
+    .feature{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 30px;
+    }
+    .continer h1{
+        margin-top: 30px;
+    }
+    
 }
